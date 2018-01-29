@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.didact.ejerciciobotonsocial2.MainActivity">
+
+    <ImageView
+        android:id="@+id/botonFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickbotonFacebook"
+        app:srcCompat="@drawable/facebook" />
+
+    <TextView
+        android:id="@+id/tvFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/botonTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickbotonTwitter"
+        app:srcCompat="@drawable/twitter" />
+
+    <TextView
+        android:id="@+id/tvTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/botonInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickbotonInstagram"
+        app:srcCompat="@drawable/instagram" />
+
+    <TextView
+        android:id="@+id/tvInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/botonAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickbotonAceptar"
+        app:srcCompat="@mipmap/ic_aceptar" />
+
+    <TextView
+        android:id="@+id/tvAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>
